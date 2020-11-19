@@ -30,6 +30,6 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_runtime_dependency 'httparty'
-  spec.add_runtime_dependency 'open-uri'
+  spec.add_runtime_dependency 'require_all'
   spec.add_development_dependency 'pry'
 end
